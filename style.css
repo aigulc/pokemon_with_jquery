@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Potta One', cursive;
+}
+
+.container {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  margin: 60px;
+  padding: 60px;
+  border-radius: 30px;
+  box-shadow: 0 0 20px #a685e2;
+  border: 2px solid #949cdf;
+}
+
+.header1{
+    text-align: center;
+    color: #f37121;
+}
+
+.pokemons{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.pokemons p{
+    font-size: 18px;
+    color: #000;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.paginator{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.paginator button{
+    width: 130px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #fff;
+   transition: 0.5s;
+   background-size: 200% auto;          
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    
+}
+
+.paginator button:hover{
+  
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.paginator button:focus{
+    outline: none;
+}
